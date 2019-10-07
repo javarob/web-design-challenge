@@ -1,0 +1,67 @@
+ html {
+     font-family: Arial, Helvetica, sans-serif;
+     margin-left: 25px;
+     margin-right: 25px;
+ }
+ 
+ table {
+     border: 1px;
+     border-style: double;
+     margin: 5px;
+     padding: 5px;
+ }
+ 
+ h1 {
+     color: darkgray;
+     font-style: italic;
+     font-size: 60px;
+ }
+ 
+ div {
+     margin: 10px;
+ }
+ 
+ #MainText {
+     font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ .myBold {
+     border: 1px;
+     border-style: dashed;
+ }
+ 
+ #navigation {
+     position: relative;
+     top: -50px;
+     float: right;
+ }
+ 
+ #navigation li {
+     display: inline;
+ }
+ 
+ #navigation li a {
+     font-weight: bold;
+     color: black;
+     text-decoration: none;
+ }
+ 
+ #navigation li a:hover {
+     font-weight: bold;
+     color: gray;
+ }
+ 
+ #left {
+     float: left;
+     width: 50%;
+ }
+ 
+ #right {
+     float: right;
+     width: 40%;
+ }
+ 
+ #foot {
+     float: none;
+     display: block;
+ }

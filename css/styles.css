@@ -1,4 +1,45 @@
+
+body {
+    background-color: lightgray;
+}
+
 .navbar-brand {
     background-color: lightseagreen;
     padding 0 5px 0 5px;
 }
+
+.navbar {
+         padding-left: 50px;
+}
+
+
+h2 {
+    color: lightseagreen;
+}
+
+.container {
+  background-color: white;
+  padding-left 500px;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #D3D3D3 10px;
+    padding: 5px;
+}
+
+#navigation li a:hover {
+     font-weight: bold;
+     color: gray;
+ }
+
+ #left {
+     float: left;
+     width: 50%;
+ }
+
+ #right {
+     float: right;
+     width: 40%;
+ }
