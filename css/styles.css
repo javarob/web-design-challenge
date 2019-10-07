@@ -29,6 +29,10 @@ h2 {
     padding: 5px;
 }
 
+#bggrey {
+    background-color: lightgray
+}
+
 #navigation li a:hover {
      font-weight: bold;
      color: gray;
