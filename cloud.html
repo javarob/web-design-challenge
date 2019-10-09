@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Graph Comparison</title>
+        <title>Latitude vs Cloudiness</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -48,36 +48,59 @@
         <!-- End of Nav Bar -->
 
 
-        <div class="box bggrey col col-lg-6 col-md-6 col-xs-12">
-            <h2>Comparison : Latitude vs X</h2>
-            <hr>
+        <!-- Start of the Jumbotron-->
+        <div class="clearfix"></div>
+        <!-- <div class="jumbotron jumbotron-fluid">-->
+        <div class="container">
             <div class="row">
-                <div class="col-sm-3 col-lg-6">
-                    <div>
-                        <a href="maxtemp.html"><img src="visualizations/latvsmaxtemp.png" style="width:100%"
-                                class="img-responsive" alt="Latitude vs Temperature"></a>
+                <p>
+                    <div class="box bggrey left col col-lg-6 col-md-6 col-xs-12">
+                        <h2>Summary: Latitude vs. Cloudiness</h2>
+                        <hr>
+                        <img id="image" src="visualizations/latvscloudiness.png"
+                            class="pull-left img-responsive img-rounded" alt="Latitude vs Wind Speed">
+                        <p>The cloud cover observations appear to be concentrated at specific intervals.
+                            Most of the plotted observations come in divisible by 20 or so. I don't see
+                            a significant relationship between latitude and cloudiness.
+                        </p>
                     </div>
-                </div>
-                <div class="col-sm-3 col-lg-6">
-                    <div>
-                        <a href="humidity.html"><img src="visualizations/latvshumidity.png" style="width:100%"
-                                style="width:100%" class="img-responsive" alt="Latitude vs Humidity"></a>
+                    <div class="box bggrey col col-lg-6 col-md-6 col-xs-12">
+                        <h2>Visualizations</h2>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-3 col-lg-6">
+                                <div class="thumbnail">
+                                    <a href="maxtemp.html"><img src="visualizations/latvsmaxtemp.png" style="width:100%"
+                                            class="img-responsive" alt="Latitude vs Temperature"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-6">
+                                <div class="thumbnail">
+                                    <a href="humidity.html"><img src="visualizations/latvshumidity.png"
+                                            style="width:100%" style="width:100%" class="img-responsive"
+                                            alt="Latitude vs Humidity"></a>
+                                </div>
+                            </div>
+                            <!-- </div>
+                                                <div class="row"> -->
+                            <div class="col-sm-3 col-lg-6">
+                                <div class="thumbnail">
+                                    <a href="cloud.html"><img src="visualizations/latvscloudiness.png"
+                                            style="width:100%" class="img-responsive" alt="Latitude vs Cloudiness"></a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3 col-lg-6">
+                                <div class="thumbnail">
+                                    <a href="wind.html"><img src="visualizations/latvswind.png" style="width:100%"
+                                            class="active-image img-responsive" alt="Latitude vs Wind Speed"></a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-3 col-lg-6">
-                    <div>
-                        <a href="cloud.html"><img src="visualizations/latvscloudiness.png" style="width:100%"
-                                class="img-responsive" alt="Latitude vs Cloudiness"></a>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-lg-6">
-                    <div>
-                        <a href="wind.html"><img src="visualizations/latvswind.png" style="width:100%"
-                                class="active-image img-responsive" alt="Latitude vs Wind Speed"></a>
-                    </div>
-                </div>
+                    <div class="clearfix"></div>
             </div>
         </div>
+        <!-- </div> -->
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -88,7 +111,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-
 
     </body>
 

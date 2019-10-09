@@ -3,12 +3,11 @@
 
     <head>
         <meta charset="UTF-8">
+        <title>Latitude vs. Temperature</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
         <link rel="stylesheet" href="css/styles.css">
-
-        <title>Weather Analysis Visualization</title>
 
     </head>
 
@@ -48,30 +47,23 @@
         </nav>
         <!-- End of Nav Bar -->
 
+
         <!-- Start of the Jumbotron-->
         <div class="clearfix"></div>
         <!-- <div class="jumbotron jumbotron-fluid">-->
         <div class="container">
             <div class="row">
                 <p>
-                    <div class="box bggrey col col-lg-6 col-md-6 col-xs-12">
-                        <h2>Summary: Latitude vs. X</h2>
+                    <div class="box bggrey left col col-lg-6 col-md-6 col-xs-12">
+                        <h2>Summary: Latitude vs. Temperature</h2>
                         <hr>
                         <img id="image" src="visualizations/latvsmaxtemp.png"
                             class="pull-left img-responsive img-rounded" alt="Latitude vs Wind Speed">
-                        <p>The purpose of this project was to analyze how weather changes as you get closer to the
-                            equator. To
-                            accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a
-                            dataset on
-                            over 500 cities.
-                        </p>
-                        <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs.
-                            latitude.
-                            Factors we looked at included: <a href="maxtemp.html"> temperature,</a><a
-                                href="humidity.html">
-                                humidity,</a><a href="cloud.html"> cloudiness, </a> and <a href="wind.html">wind
-                                speed</a>. This site provides the source data and visualizations created as part of the
-                            analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                        <p>As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg.
+                            Latitude).
+                            More interestingly, however is the fact that the southern hemisphere tends to be warmer this
+                            time of her than the northern hemisphere.
+                            This may be due to the tilt of the earth at the time the temperatures were recorded.
                         </p>
                     </div>
                     <div class="box bggrey col col-lg-6 col-md-6 col-xs-12">
@@ -92,7 +84,7 @@
                                 </div>
                             </div>
                             <!-- </div>
-                        <div class="row"> -->
+                                            <div class="row"> -->
                             <div class="col-sm-3 col-lg-6">
                                 <div class="thumbnail">
                                     <a href="cloud.html"><img src="visualizations/latvscloudiness.png"
